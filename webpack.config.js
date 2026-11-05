@@ -3,6 +3,7 @@ import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import "style-loader";
 import "css-loader";
+import test from "node:test";
 
 export default {
   mode: "development",
@@ -23,6 +24,14 @@ export default {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.html$/i,
+        use: ["html-loader"]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: "asset/resource"
+      }
     ],
   },
 };
