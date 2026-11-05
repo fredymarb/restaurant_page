@@ -1,11 +1,11 @@
 export function aboutPage() {
   return `<section class="page-hero page-hero--about">
-    <div class="page-hero__copy"><p class="eyebrow"><span class="eyebrow__dot"></span> A little place with a big heart</p><h1>Welcome to<br><span>our corner.</span></h1><p>Come as you are, bring your appetite, and stay for a while. Around here, everyone's part of the crew.</p></div>
+    <div class="page-hero__copy"><p class="eyebrow"><span class="eyebrow__dot"></span> The friendliest kitchen under the sea</p><h1>Welcome to<br><span>Bikini Bottom.</span></h1><p>Come as you are, bring your appetite, and stay for a while. Right here in Bikini Bottom, everyone's part of the crew.</p></div>
     <div class="about-hero-art" aria-hidden="true"><div class="about-hero-art__sun"></div><div class="about-hero-art__window"><span></span><i></i><b></b></div><div class="about-hero-art__building"><span>KRUSTY<br>KRAB</span></div><div class="about-hero-art__ground"></div><div class="about-hero-art__kelp"></div></div>
   </section>
   <section class="about-story section-wrap">
     <div class="section-kicker"><span>01</span><span class="section-kicker__line"></span><span>Our little story</span></div>
-    <div class="about-story__grid"><h2>Good food.<br><span>Good neighbors.</span></h2><div class="about-story__copy"><p>Some places just feel like home. Maybe it's the familiar sizzle from the grill, the friendly faces behind the counter, or that first bite of a burger you can't stop thinking about.</p><p>We're a neighborhood gathering spot at heart — a place for quick lunches, long chats, and making an ordinary day feel a little more special. The grill is on, the welcome is real, and there's always room for one more.</p><div class="about-signoff"><span class="about-signoff__mark">✳</span><span>Made with care, served with a smile.</span></div></div></div>
+    <div class="about-story__grid"><h2>Good food.<br><span>Good neighbors.</span></h2><div class="about-story__copy"><p>Some places just feel like home. Maybe it's the familiar sizzle from the grill, the friendly faces behind the counter, or that first bite of a Krabby Patty you can't stop thinking about.</p><p>We're Bikini Bottom's favorite gathering spot at heart — a place for quick lunches, long chats, and making an ordinary day feel a little more special. The grill is on, the welcome is real, and there's always room for one more.</p><div class="about-signoff"><span class="about-signoff__mark">✳</span><span>Made with care, served with a smile.</span></div></div></div>
   </section>
   <section class="visit-details">
     <div class="visit-details__inner section-wrap">

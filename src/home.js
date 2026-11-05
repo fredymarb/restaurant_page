@@ -1,46 +1,34 @@
+import krabbyPatty from "./images/krabby-patty.jpg";
+import kelpRings from "./images/kelp-rings.jpg";
+import seafoamShake from "./images/seafoam-shake.jpg";
+
 const featuredItems = [
   {
     name: "The Krabby Patty",
     description: "Our legendary seafloor classic, stacked just right.",
     price: "$6.99",
     label: "The original",
-    art: "burger",
+    image: krabbyPatty,
   },
   {
     name: "Kelp Rings",
     description: "Crispy, golden, and made for sharing (or not).",
     price: "$3.49",
     label: "Fan favorite",
-    art: "rings",
+    image: kelpRings,
   },
   {
     name: "Seafoam Shake",
     description: "A cool, creamy swirl with a splash of ocean breeze.",
     price: "$2.99",
     label: "Cool & creamy",
-    art: "shake",
+    image: seafoamShake,
   },
 ];
 
-function foodIllustration(type) {
-  if (type === "rings") {
-    return `<span class="food-illustration food-illustration--rings" aria-hidden="true">
-      <i></i><i></i><i></i><i></i>
-    </span>`;
-  }
-  if (type === "shake") {
-    return `<span class="food-illustration food-illustration--shake" aria-hidden="true">
-      <i></i><b></b><em></em>
-    </span>`;
-  }
-  return `<span class="food-illustration food-illustration--burger" aria-hidden="true">
-    <i></i><b></b><em></em><strong></strong><small></small>
-  </span>`;
-}
-
 function featuredCard(item, index) {
-  return `<article class="feature-card feature-card--${item.art}">
-    <div class="feature-card__art">${foodIllustration(item.art)}<span class="art-spark art-spark--one">✳</span><span class="art-spark art-spark--two">✦</span></div>
+  return `<article class="feature-card">
+    <div class="feature-card__art"><img src="${item.image}" alt="${item.name}" loading="lazy"></div>
     <div class="feature-card__body">
       <div class="feature-card__meta"><span>${item.label}</span><span class="feature-card__number">0${index + 1}</span></div>
       <h3>${item.name}</h3>
