@@ -2,6 +2,10 @@
 
 A responsive restaurant landing page for the Krusty Krab, featuring a home page, a filterable menu, and restaurant information.
 
+## Live demo
+
+[Check out the live site](https://fredymarb.github.io/restaurant_page/).
+
 ## Features
 
 - Single-page navigation between Home, Menu, and Bikini Bottom sections
